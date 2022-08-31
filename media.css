@@ -1,0 +1,580 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    /************************************ Header ********************************************/
+    .nav {
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .navLogo {
+        font-size: 24px;
+        margin-left: 5px;
+        padding: 10px;
+    }
+
+    .nav-bar {
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+    }
+
+    .nav-links {
+        margin-right: 5px;
+        margin: 5px;
+        /* float: let; */
+    }
+
+    .nav-item {
+        margin: 20px 5px;
+    }
+
+    .navText {
+        width: 100%;
+    }
+
+    .navText h3 {
+        font-size: 20px;
+    }
+
+    .navText h1 {
+        font-size: 50px;
+    }
+
+    .navText h4 {
+        font-size: 22px;
+    }
+
+    /*********************************************  Hello ********************************* */
+    .Hello {
+        margin: 30px 0;
+        padding: 20px 0;
+        text-align: left;
+    }
+
+    .helloImg,
+    .helloText {
+        width: 80%;
+        float: left;
+        align-content: center;
+    }
+
+    .helloImg {
+        margin: 0;
+        padding: 0;
+    }
+
+    .helloImg img {
+        width: 100%;
+        float: none;
+        margin-bottom: 10px;
+        margin-left: 50px;
+    }
+
+    .helloText {
+        margin: 0 5px;
+        padding: 0 20px;
+        margin-left: 30px;
+    }
+
+    .helloText button,
+    .contact button {
+        font-size: 16px;
+        vertical-align: super;
+    }
+
+    .helloText h2 {
+        font-size: 28px;
+        padding: 5px 0;
+        margin: 5px 0;
+    }
+
+    /*********************************************  Services ********************************* */
+    .Title {
+        font-size: 20px;
+    }
+
+    .Title .small {
+        width: 15%;
+    }
+
+    .Title .big {
+        width: 30%;
+    }
+
+    .serItem {
+        width: 100%;
+        padding: 30px;
+    }
+
+    .ui2 {
+        height: 50px;
+    }
+
+    /*********************************************  Portfolio ********************************* */
+    .portContent {
+        margin: 30px;
+    }
+
+    .portItem {
+        width: 100%;
+    }
+
+    /*********************************************  counter ********************************* */
+
+    .countItem {
+        width: 100%;
+        padding-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .countImg {
+        margin-bottom: 0px;
+    }
+
+    .countText {
+        margin: 0px;
+    }
+
+    .countText h3 {
+        margin: 0;
+        font-size: 22px;
+    }
+
+    /*********************************************  Feedback ********************************* */
+
+    .feedBack {
+        margin: 50px;
+        padding: 20px;
+    }
+
+    .feed {
+        width: 100%;
+        padding: 20px 20px;
+    }
+
+    .feedImg,
+    .feedText {
+        width: 90%;
+        margin: 10px;
+    }
+
+    .feedImg img {
+        width: 40%;
+    }
+
+    .redCorn {
+    
+    }
+
+    /* .redCorn{
+        background-color: transparent;
+    } */
+    .feedText {
+        text-align: left;
+        margin-top: 10px;
+        padding: 0;
+    }
+
+    .feedText p {
+        line-height: 30px;
+    }
+
+    .rate {
+        width: 100px;
+    }
+
+    /*********************************************  Blog ********************************* */
+    .blog {
+        padding: 50px;
+    }
+
+    .itemCont {
+        width: 100%;
+    }
+
+    /*********************************************  Conttact ********************************* */
+
+    .contInputs {
+        width: 100%;
+        padding-bottom: 50px;
+
+    }
+
+    .inNames {
+        width: 100%;
+        margin-left: 25px;
+        margin-bottom: 10px;
+    }
+
+    .inNames input {
+        width: 90%;
+        margin-bottom: 20px;
+        padding: 10px;
+    }
+
+    .inText input,
+    textarea {
+        width: 90%;
+        margin-bottom: 20px;
+        padding: 10px;
+
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 766px) {
+
+    /************************************ Header ********************************************/
+    .nav {
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .nav-bar {
+        position: absolute;
+        top: 10;
+        right: 10px;
+        left: 20px;
+    }
+
+    .navLogo {
+        font-size: 28px;
+        margin-left: 5px;
+        padding: 10px;
+    }
+
+    .nav-links {
+        float: right;
+        margin-right: 5px;
+        margin-top: 10px;
+    }
+
+    .nav-item {
+        margin: 5px;
+    }
+
+    .navText {
+        width: 100%;
+    }
+
+    .navText h3 {
+        font-size: 22px;
+    }
+
+    .navText h1 {
+        font-size: 54px;
+    }
+
+    .navText h4 {
+        font-size: 24px;
+    }
+
+    /*********************************************  Hello ********************************* */
+    .Hello {
+        margin: 30px 0;
+        padding: 30px 0;
+    }
+
+    .helloImg,
+    .helloText {
+        width: 90%;
+
+        border: none;
+    }
+
+    .helloImg img {
+        float: left;
+    }
+
+    /*********************************************  Services ********************************* */
+    .serItem {
+        width: 100%;
+    }
+
+    /*********************************************  Portfolio ********************************* */
+
+    .portItem {
+        width: 90%;
+        margin: 20px;
+    }
+
+    .portContent {
+        margin: auto;
+        margin-left: 30px;
+    }
+
+    .portItem img {
+        width: 85%;
+    }
+
+    /*********************************************  counter ********************************* */
+
+    .countItem {
+        width: 100%;
+        padding-bottom: 40px;
+    }
+
+    /*********************************************  Feedback ********************************* */
+    .feedBack {
+        padding: 30px 10px;
+        margin: 20px 10px;
+    }
+
+    .feed {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .feedText h3 {
+        font-size: 23px;
+    }
+
+    .feedText a {
+        font-size: 18px;
+    }
+
+    .feedText .locIcon {
+        width: 16px;
+    }
+
+    .feedText p {
+        font-size: 16px;
+    }
+
+    .rate {
+        width: 90px;
+    }
+
+    /*********************************************  Blog ********************************* */
+
+    .blogItem{
+        margin-left: 110px;
+
+        /* align-self: center; */
+    }
+    .itemCont {
+        width: 70%;
+        /* margin: auto; */
+        /* margin-right: 150px; */
+        /* padding: 10px; */
+        /* float: left; */
+    }
+
+    /*********************************************  Conttact ********************************* */
+    .contInputs {
+        width: 100%;
+    }
+
+    input,
+    textarea {
+        padding: 10px;
+        margin-bottom: 15px;
+    }
+
+    .inNames {
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+
+    .inNames input {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .inText input,
+    textarea {
+        width: 100%;
+    }
+
+    .contact button {
+        margin-left: 0;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+
+    /************************************ Header ********************************************/
+    .navLogo {
+        /* margin-left: 20px; */
+    }
+
+    .nav-bar {
+        right: 30px;
+        left: 30px;
+    }
+
+    .nav-links {
+        margin-right: 0px;
+    }
+
+    .nav-links a {
+        font-size: 18px;
+    }
+
+    .nav-item {
+        margin: 7px;
+    }
+    .navText{
+    }
+
+    /*********************************************  Hello ********************************* */
+
+    .helloImg,
+    .helloText {
+        width: 45%;
+        float: left;
+    }
+
+    .helloImg {
+        margin-right: 20px;
+    }
+
+    .helloImg img {
+        margin: 10px 20px;
+        width: 100%;
+    }
+
+    .helloText {
+        /* margin: 15px; */
+        margin: 15;
+        padding: 0px;
+    }
+
+    .helloText h2 {
+        margin-bottom: 5px;
+        padding-bottom: 5px;
+    }
+
+    .helloText p {
+        line-height: auto;
+    }
+
+    .helloText hr {
+        margin: 10px 0;
+    }
+
+    .info {
+        width: 100%;
+    }
+
+    .infoItem {
+        width: 50%;
+        padding-right: 10px;
+    }
+
+    .infoData {
+        margin-bottom: 5px;
+        padding: 5px;
+        font-size: 14px;
+        width: 100%;
+    }
+
+    /*********************************************  Services ********************************* */
+    .Services {
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .serItem {
+        width: 50%;
+        padding: 5px;
+        box-sizing: border-box;
+    }
+
+    /*<!-------------------------------------- Our Portfolio -------------------------->*/
+    .Portfolio {
+        margin: 20px;
+    }
+
+    .portContent {
+        /* width: 100%; */
+        margin: 10px 20px
+    }
+
+    .portItem {
+        width: 48%;
+        box-sizing: border-box;
+        margin: 5px;
+    }
+
+    .portItem img {
+        width: 100%;
+        margin: 5px;
+    }
+
+    /*********************************************  counter ********************************* */
+    .counter {
+        padding: 20px;
+    }
+
+    .countItem {
+        width: 25%;
+        vertical-align: baseline;
+    }
+
+    .countImg .files {
+        margin-bottom: 20px;
+    }
+
+    .countImg .files img {
+        width: 60px;
+        height: 80px;
+    }
+
+    /*********************************************  Blog ********************************* */
+    .blog {
+        padding: 20px 10px;
+    }
+
+    .blogItem {
+        margin: 0 5px;
+        margin: 0 5px;
+    }
+
+    .itemCont {
+        width: 30%;
+    }
+
+    .blogText {
+        margin: 5px;
+        padding: 10px 13px;
+    }
+
+    .blogText h5 {
+        margin-bottom: 15px;
+    }
+    
+    .blogText p {
+        margin-bottom: 5px;
+    }
+
+    /*********************************************  Conttact ********************************* */
+    .contInputs {
+        width: 90%;
+    }
+    .inNames{
+        width: 100%;
+    }
+        .inNames input {
+        width: 44%;
+        /* padding-right: 20px; */
+        float: left;
+        margin-left: 10px;
+        margin-right: 10px;  
+    }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {
+    
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {} */ 
